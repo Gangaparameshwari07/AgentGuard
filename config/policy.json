@@ -1,0 +1,68 @@
+{
+  "rules": [
+    {
+      "id": "R001",
+      "text": "No autonomous agent shall approve expenditures exceeding $5,000 USD without obtaining a secondary manager signature and explicit authorization code.",
+      "category": "financial",
+      "threshold": 5000,
+      "severity": "CRITICAL",
+      "action": "escalate"
+    },
+    {
+      "id": "R002",
+      "text": "All international wire transfers exceeding $10,000 must receive CFO approval before processing.",
+      "category": "financial",
+      "threshold": 10000,
+      "severity": "CRITICAL",
+      "action": "reject"
+    },
+    {
+      "id": "R003",
+      "text": "Duplicate invoice submissions received within a 30-day window must be automatically rejected and flagged for human review.",
+      "category": "financial",
+      "threshold": 30,
+      "severity": "HIGH",
+      "action": "reject"
+    },
+    {
+      "id": "R004",
+      "text": "All vendor payments must be cross-verified against the current approved vendor registry before any funds are released.",
+      "category": "vendor",
+      "threshold": null,
+      "severity": "MEDIUM",
+      "action": "verify"
+    },
+    {
+      "id": "R005",
+      "text": "New vendor onboarding requires procurement team approval before the vendor may receive payments.",
+      "category": "vendor",
+      "threshold": null,
+      "severity": "MEDIUM",
+      "action": "escalate"
+    },
+    {
+      "id": "R006",
+      "text": "Any transaction exhibiting fraud indicators must be immediately frozen pending investigation by the security team.",
+      "category": "fraud",
+      "threshold": null,
+      "severity": "CRITICAL",
+      "action": "reject"
+    },
+    {
+      "id": "R007",
+      "text": "Agents must not override fraud flags under any circumstances without explicit security clearance.",
+      "category": "fraud",
+      "threshold": null,
+      "severity": "CRITICAL",
+      "action": "log"
+    },
+    {
+      "id": "R008",
+      "text": "All agent decisions must be logged with full reasoning trace for audit purposes.",
+      "category": "general",
+      "threshold": null,
+      "severity": "MEDIUM",
+      "action": "log"
+    }
+  ]
+}

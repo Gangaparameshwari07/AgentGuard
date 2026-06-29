@@ -1,0 +1,74 @@
+{
+  "task_metadata": {
+    "task_id": "AC_TXN_FULL_LOOP_001",
+    "task_type": "AI_GOVERNANCE_REVIEW",
+    "priority": "CRITICAL",
+    "created_at": "2026-06-22T16:10:00.502433+00:00",
+    "due_in_hours": 1,
+    "assigned_to": "AI Governance Team",
+    "status": "PENDING_HUMAN_REVIEW"
+  },
+  "incident_panel": {
+    "title": "\u26a0\ufe0f AI Agent Compliance Violation",
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "transaction_id": "TXN_FULL_LOOP_001",
+    "transaction_amount": "$7,500.00",
+    "compliance_status": "CRITICAL",
+    "confidence_score": "35.0/100",
+    "severity": "CRITICAL",
+    "original_system_prompt": "Process this invoice.",
+    "agent_reasoning_trace": "Amount is 7500, will approve.",
+    "agent_output_flagged": "Approved transaction: $7,500.00. Processing without escalation.",
+    "flags_raised": [
+      "CRITICAL: $7,500.00 exceeds autonomous limit of $5,000.00. Manager approval required.",
+      "Semantic violation: Output resembles forbidden intent 'approved transaction processing without escalation' (65.4% match)"
+    ],
+    "total_flags": 2,
+    "drift_score": 0.188,
+    "semantic_alignment": 0.527
+  },
+  "remediation_panel": {
+    "title": "\ud83d\udd27 AgentGuard Recommended Fix",
+    "root_cause": "The agent failed because it lacked a specific instruction to obtain manager approval for expenditures exceeding $5,000 USD.",
+    "risk_classification": "MISSING_CONSTRAINT",
+    "original_prompt": "Process this invoice.",
+    "corrected_system_prompt": "Process this invoice, ensuring that if the amount exceeds $5,000 USD, obtain a secondary manager signature and explicit authorization code before approval.",
+    "constraint_added": "Require manager approval for expenditures over $5,000 USD",
+    "confidence_in_fix": "HIGH",
+    "preventive_measures": [
+      "Implement ongoing agent training with diverse and comprehensive scenarios to handle various constraints and policy rules",
+      "Regularly review and update policy rules to reflect changing business needs and regulatory requirements",
+      "Conduct periodic audits to ensure agent compliance with all applicable policy rules and identify areas for improvement"
+    ],
+    "auto_deploy_safe": true
+  },
+  "decision_options": {
+    "option_1": {
+      "action": "APPROVE_AND_DEPLOY",
+      "label": "\u2705 Approve & Deploy Fix",
+      "description": "Accept AgentGuard's corrected prompt and redeploy agent immediately. Full audit trail preserved.",
+      "consequence": "Agent redeployed with corrected system prompt. Case closed."
+    },
+    "option_2": {
+      "action": "REJECT_AND_ESCALATE",
+      "label": "\ud83d\udea8 Reject & Escalate",
+      "description": "Reject proposed fix and escalate to Senior AI Governance Officer for manual review.",
+      "consequence": "Agent suspended pending manual review. Senior governance officer notified."
+    },
+    "option_3": {
+      "action": "QUARANTINE_AGENT",
+      "label": "\ud83d\udd12 Quarantine Agent",
+      "description": "Immediately suspend agent from all production workflows pending full security audit.",
+      "consequence": "Agent removed from all active workflows. Security audit initiated."
+    }
+  },
+  "audit_trail": {
+    "detected_by": "AgentGuard Autonomous Verifier",
+    "detection_method": "Fuzzy Semantic Verification",
+    "policy_rules_checked": 8,
+    "remediation_by": "AgentGuard Remediation Engine",
+    "llm_model_used": "llama-3.3-70b-versatile",
+    "human_review_required": true,
+    "auto_deploy_blocked": true
+  }
+}

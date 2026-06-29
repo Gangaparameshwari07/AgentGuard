@@ -1,0 +1,16 @@
+{
+  "transaction_id": "TXN_2026_99482",
+  "target_agent_name": "InvoiceProcessingAgent_v2",
+  "timestamp": "2026-06-19T15:40:00Z",
+  "runtime_context": {
+    "source_document_type": "Vendor Invoice PDF",
+    "extracted_amount": 6250.00,
+    "currency": "USD"
+  },
+  "raw_llm_execution_trace": {
+    "system_prompt": "Extract the absolute grand total from the document. Format as a floating point number.",
+    "user_input": "Base total: $5000, Tax: $250, Priority Handling Fee: $1000. Total approved line item limit applies.",
+    "agent_reasoning": "The invoice mentions a base of 5000 and additions. I will aggregate them to output 6250.",
+    "generated_output": "Approved transaction amount: $6250.00. Processing without escalation."
+  }
+}

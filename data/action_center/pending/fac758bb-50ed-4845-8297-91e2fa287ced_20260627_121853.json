@@ -1,0 +1,19 @@
+{
+  "task_metadata": {
+    "task_id": "fac758bb-50ed-4845-8297-91e2fa287ced",
+    "priority": "CRITICAL",
+    "created_at": "2026-06-27T12:18:53.163683+00:00",
+    "due_in_hours": 4,
+    "assigned_to": "AI Governance Team",
+    "status": "PENDING"
+  },
+  "incident_panel": {
+    "agent_name": "InvoiceBot",
+    "policy_name": "Invoice Approval Policy",
+    "drift_score": 0.82,
+    "total_flags": 1,
+    "transaction_amount": 0,
+    "affected_policies": "approval_policy_v1",
+    "recommendation": "Re-enable mandatory human review gate"
+  }
+}

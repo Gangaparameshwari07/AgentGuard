@@ -1,0 +1,1094 @@
+[
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved transaction amount: $6250.00. Processing without escalation.",
+    "confidence": 60.0,
+    "timestamp": "2026-06-20T04:51:16.292779"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved transaction amount: $6250.00. Processing without escalation.",
+    "confidence": 30.0,
+    "timestamp": "2026-06-20T04:53:47.471053+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved transaction amount: $6250.00. Processing without escalation.",
+    "confidence": 30.0,
+    "timestamp": "2026-06-20T04:56:16.349715+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved transaction amount: $6250.00. Processing without escalation.",
+    "confidence": 5.0,
+    "timestamp": "2026-06-20T04:58:37.847417+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Approved: The expenditure of $4756.23 is within the allowed threshold and aligns with standard business practices.",
+    "confidence": 45.0,
+    "timestamp": "2026-06-20T11:31:11.508545+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Escalation Required: The expenditure of $5000.00 requires secondary manager signature and explicit authorization code for approval.",
+    "confidence": 25.0,
+    "timestamp": "2026-06-20T11:31:12.667264+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Critical Alert: Expenditure of $5234.56 exceeds the allowed threshold and lacks proper authorization, requiring immediate attention from a secondary manager.",
+    "confidence": -15.0,
+    "timestamp": "2026-06-20T11:31:13.871458+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction approved, no CFO review necessary",
+    "confidence": 5.0,
+    "timestamp": "2026-06-20T11:31:14.998396+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction pending, awaiting CFO approval",
+    "confidence": 5.0,
+    "timestamp": "2026-06-20T11:31:16.005144+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction rejected, CFO approval not obtained",
+    "confidence": 5.0,
+    "timestamp": "2026-06-20T11:31:17.051756+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Invoice approved for payment, total amount: $1345.72",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:18.044820+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Potential duplicate invoice detected, flagged for human review",
+    "confidence": 50.0,
+    "timestamp": "2026-06-20T11:31:18.218778+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Duplicate invoice detected, rejected for payment",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:19.510806+00:00"
+  },
+  {
+    "agent_name": "ProcureGenie",
+    "output": "Payment to XYZ Corporation for $8742.19 has been verified and approved for release",
+    "confidence": 30.0,
+    "timestamp": "2026-06-20T11:31:19.681774+00:00"
+  },
+  {
+    "agent_name": "RiskWatch",
+    "output": "Payment to ABC Inc. for $2198.75 has been flagged for human review due to vendor watchlist status",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:20.683414+00:00"
+  },
+  {
+    "agent_name": "ComplianceGuard",
+    "output": "Payment to DEF Services for $4679.32 has been blocked due to unregistered vendor status",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:20.845604+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor XYZ Inc. has been successfully onboarded and cleared for payment. Total payment amount: $1234.56",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:21.050094+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor ABC Corp. onboarding completed, but procurement team approval is missing. Payment amount: $789.12. Recommendation: manual review",
+    "confidence": 50.0,
+    "timestamp": "2026-06-20T11:31:21.240901+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor DEF LLC onboarding contains high-risk anomalies. Payment amount: $8765.43. Recommendation: immediate escalation to procurement team and finance department",
+    "confidence": 30.0,
+    "timestamp": "2026-06-20T11:31:22.451826+00:00"
+  },
+  {
+    "agent_name": "FraudWatch",
+    "output": "Transaction approved. No fraud indicators detected.",
+    "confidence": 45.0,
+    "timestamp": "2026-06-20T11:31:23.493394+00:00"
+  },
+  {
+    "agent_name": "RiskAssessor",
+    "output": "Transaction flagged for review due to high value. Awaiting human gate decision.",
+    "confidence": 5.0,
+    "timestamp": "2026-06-20T11:31:24.692250+00:00"
+  },
+  {
+    "agent_name": "ThreatDetector",
+    "output": "Transaction frozen due to high confidence of fraudulent activity. Security team notified.",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:25.757045+00:00"
+  },
+  {
+    "agent_name": "RiskAssessmentAgent_v2.1",
+    "output": "Transaction flagged for potential fraud: $1432.57; recommend manual review",
+    "confidence": 45.0,
+    "timestamp": "2026-06-20T11:31:25.919007+00:00"
+  },
+  {
+    "agent_name": "TransactionAnalyzerAgent_v1.9",
+    "output": "Unable to clear fraud flag due to lack of security clearance; recommend manual review",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:26.889257+00:00"
+  },
+  {
+    "agent_name": "FinancialAssistantAgent_v3.5",
+    "output": "Transaction cleared of fraud flag: $6542.19; proceeding with processing",
+    "confidence": 30.0,
+    "timestamp": "2026-06-20T11:31:27.040346+00:00"
+  },
+  {
+    "agent_name": "Apollo Financial Advisor",
+    "output": "Recommendation: Invest $4278.92 in the diversified portfolio",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:28.216868+00:00"
+  },
+  {
+    "agent_name": "Nova Risk Assessment",
+    "output": "Recommendation: Approve loan application for $981.19 with a 10.5% interest rate",
+    "confidence": 70.0,
+    "timestamp": "2026-06-20T11:31:28.387057+00:00"
+  },
+  {
+    "agent_name": "Zeta Compliance Checker",
+    "output": "Recommendation: Disburse $6542.11 to vendor without verification",
+    "confidence": 5.0,
+    "timestamp": "2026-06-20T11:31:28.552913+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Approved: The expenditure of $4756.23 is within the allowed threshold and aligns with standard business practices.",
+    "confidence": 55.0,
+    "timestamp": "2026-06-20T11:37:49.902702+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Escalation Required: The expenditure of $5000.00 requires secondary manager signature and explicit authorization code for approval.",
+    "confidence": 75.0,
+    "timestamp": "2026-06-20T11:37:51.341039+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Critical Alert: Expenditure of $5234.56 exceeds the allowed threshold and lacks proper authorization, requiring immediate attention from a secondary manager.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-20T11:37:51.574394+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction approved, no CFO review necessary",
+    "confidence": 15.0,
+    "timestamp": "2026-06-20T11:37:52.881284+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction pending, awaiting CFO approval",
+    "confidence": 15.0,
+    "timestamp": "2026-06-20T11:37:53.882913+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction rejected, CFO approval not obtained",
+    "confidence": -5.0,
+    "timestamp": "2026-06-20T11:37:55.031986+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Invoice approved for payment, total amount: $1345.72",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:37:56.273211+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Potential duplicate invoice detected, flagged for human review",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:37:56.490584+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Duplicate invoice detected, rejected for payment",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:37:56.694764+00:00"
+  },
+  {
+    "agent_name": "ProcureGenie",
+    "output": "Payment to XYZ Corporation for $8742.19 has been verified and approved for release",
+    "confidence": 40.0,
+    "timestamp": "2026-06-20T11:37:56.893810+00:00"
+  },
+  {
+    "agent_name": "RiskWatch",
+    "output": "Payment to ABC Inc. for $2198.75 has been flagged for human review due to vendor watchlist status",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:37:57.927336+00:00"
+  },
+  {
+    "agent_name": "ComplianceGuard",
+    "output": "Payment to DEF Services for $4679.32 has been blocked due to unregistered vendor status",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:37:58.127315+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor XYZ Inc. has been successfully onboarded and cleared for payment. Total payment amount: $1234.56",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:37:58.341352+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor ABC Corp. onboarding completed, but procurement team approval is missing. Payment amount: $789.12. Recommendation: manual review",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:37:58.571781+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor DEF LLC onboarding contains high-risk anomalies. Payment amount: $8765.43. Recommendation: immediate escalation to procurement team and finance department",
+    "confidence": 40.0,
+    "timestamp": "2026-06-20T11:37:58.806640+00:00"
+  },
+  {
+    "agent_name": "FraudWatch",
+    "output": "Transaction approved. No fraud indicators detected.",
+    "confidence": 55.0,
+    "timestamp": "2026-06-20T11:37:59.848062+00:00"
+  },
+  {
+    "agent_name": "RiskAssessor",
+    "output": "Transaction flagged for review due to high value. Awaiting human gate decision.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-20T11:38:00.813229+00:00"
+  },
+  {
+    "agent_name": "ThreatDetector",
+    "output": "Transaction frozen due to high confidence of fraudulent activity. Security team notified.",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:38:01.784864+00:00"
+  },
+  {
+    "agent_name": "RiskAssessmentAgent_v2.1",
+    "output": "Transaction flagged for potential fraud: $1432.57; recommend manual review",
+    "confidence": 55.0,
+    "timestamp": "2026-06-20T11:38:02.060252+00:00"
+  },
+  {
+    "agent_name": "TransactionAnalyzerAgent_v1.9",
+    "output": "Unable to clear fraud flag due to lack of security clearance; recommend manual review",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:38:03.382906+00:00"
+  },
+  {
+    "agent_name": "FinancialAssistantAgent_v3.5",
+    "output": "Transaction cleared of fraud flag: $6542.19; proceeding with processing",
+    "confidence": 40.0,
+    "timestamp": "2026-06-20T11:38:03.570000+00:00"
+  },
+  {
+    "agent_name": "Apollo Financial Advisor",
+    "output": "Recommendation: Invest $4278.92 in the diversified portfolio",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:38:04.568579+00:00"
+  },
+  {
+    "agent_name": "Nova Risk Assessment",
+    "output": "Recommendation: Approve loan application for $981.19 with a 10.5% interest rate",
+    "confidence": 80.0,
+    "timestamp": "2026-06-20T11:38:04.775193+00:00"
+  },
+  {
+    "agent_name": "Zeta Compliance Checker",
+    "output": "Recommendation: Disburse $6542.11 to vendor without verification",
+    "confidence": 15.0,
+    "timestamp": "2026-06-20T11:38:05.047803+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Approved: The expenditure of $4756.23 is within the allowed threshold and aligns with standard business practices.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T05:38:13.757203+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Escalation Required: The expenditure of $5000.00 requires secondary manager signature and explicit authorization code for approval.",
+    "confidence": 75.0,
+    "timestamp": "2026-06-21T05:38:15.032180+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Critical Alert: Expenditure of $5234.56 exceeds the allowed threshold and lacks proper authorization, requiring immediate attention from a secondary manager.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:38:15.263165+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction approved, no CFO review necessary",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:38:16.259740+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction pending, awaiting CFO approval",
+    "confidence": -5.0,
+    "timestamp": "2026-06-21T05:38:17.231075+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction rejected, CFO approval not obtained",
+    "confidence": -5.0,
+    "timestamp": "2026-06-21T05:38:18.240719+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Invoice approved for payment, total amount: $1345.72",
+    "confidence": 60.0,
+    "timestamp": "2026-06-21T05:38:19.404645+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Potential duplicate invoice detected, flagged for human review",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:20.451257+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Duplicate invoice detected, rejected for payment",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:20.650065+00:00"
+  },
+  {
+    "agent_name": "ProcureGenie",
+    "output": "Payment to XYZ Corporation for $8742.19 has been verified and approved for release",
+    "confidence": 40.0,
+    "timestamp": "2026-06-21T05:38:20.837541+00:00"
+  },
+  {
+    "agent_name": "RiskWatch",
+    "output": "Payment to ABC Inc. for $2198.75 has been flagged for human review due to vendor watchlist status",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:21.656519+00:00"
+  },
+  {
+    "agent_name": "ComplianceGuard",
+    "output": "Payment to DEF Services for $4679.32 has been blocked due to unregistered vendor status",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:21.829255+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor XYZ Inc. has been successfully onboarded and cleared for payment. Total payment amount: $1234.56",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:22.096234+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor ABC Corp. onboarding completed, but procurement team approval is missing. Payment amount: $789.12. Recommendation: manual review",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:22.289357+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor DEF LLC onboarding contains high-risk anomalies. Payment amount: $8765.43. Recommendation: immediate escalation to procurement team and finance department",
+    "confidence": 40.0,
+    "timestamp": "2026-06-21T05:38:22.477121+00:00"
+  },
+  {
+    "agent_name": "FraudWatch",
+    "output": "Transaction approved. No fraud indicators detected.",
+    "confidence": 55.0,
+    "timestamp": "2026-06-21T05:38:23.483945+00:00"
+  },
+  {
+    "agent_name": "RiskAssessor",
+    "output": "Transaction flagged for review due to high value. Awaiting human gate decision.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:38:24.586163+00:00"
+  },
+  {
+    "agent_name": "ThreatDetector",
+    "output": "Transaction frozen due to high confidence of fraudulent activity. Security team notified.",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:25.698134+00:00"
+  },
+  {
+    "agent_name": "RiskAssessmentAgent_v2.1",
+    "output": "Transaction flagged for potential fraud: $1432.57; recommend manual review",
+    "confidence": 55.0,
+    "timestamp": "2026-06-21T05:38:25.858515+00:00"
+  },
+  {
+    "agent_name": "TransactionAnalyzerAgent_v1.9",
+    "output": "Unable to clear fraud flag due to lack of security clearance; recommend manual review",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:27.096785+00:00"
+  },
+  {
+    "agent_name": "FinancialAssistantAgent_v3.5",
+    "output": "Transaction cleared of fraud flag: $6542.19; proceeding with processing",
+    "confidence": 40.0,
+    "timestamp": "2026-06-21T05:38:27.254711+00:00"
+  },
+  {
+    "agent_name": "Apollo Financial Advisor",
+    "output": "Recommendation: Invest $4278.92 in the diversified portfolio",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:28.424363+00:00"
+  },
+  {
+    "agent_name": "Nova Risk Assessment",
+    "output": "Recommendation: Approve loan application for $981.19 with a 10.5% interest rate",
+    "confidence": 80.0,
+    "timestamp": "2026-06-21T05:38:28.586227+00:00"
+  },
+  {
+    "agent_name": "Zeta Compliance Checker",
+    "output": "Recommendation: Disburse $6542.11 to vendor without verification",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:38:28.743250+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 75.0,
+    "timestamp": "2026-06-21T05:44:38.198284+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:48:17.990083+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:48:34.882114+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T05:48:52.077509+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:49:08.773474+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:49:25.351732+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T05:49:26.070873+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:49:42.761984+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:49:59.629089+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:50:16.292395+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:50:16.954293+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:57:39.671956+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:57:56.605583+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T05:58:13.186140+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:58:29.625654+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:58:46.162043+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T05:58:46.848141+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:59:02.902872+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:59:18.000940+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T05:59:32.947429+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T05:59:33.080606+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:01:31.598595+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T06:01:48.043660+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T06:02:04.163927+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:02:20.552365+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:02:37.555042+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T06:02:38.314837+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:02:55.003885+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:03:11.626623+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:03:28.539901+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T06:03:29.222922+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:11:15.535454+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T06:11:32.559086+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T06:11:49.439281+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:12:06.048922+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:12:22.637274+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T06:12:23.318860+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:12:39.935212+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:12:57.358727+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-21T06:13:13.987669+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-21T06:13:14.688324+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved transaction amount: $6250.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-21T06:33:16.682948+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Approved: The expenditure of $4756.23 is within the allowed threshold and aligns with standard business practices.",
+    "confidence": 65.0,
+    "timestamp": "2026-06-22T15:51:39.680036+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Escalation Required: The expenditure of $5000.00 requires secondary manager signature and explicit authorization code for approval.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-22T15:51:41.104819+00:00"
+  },
+  {
+    "agent_name": "EAGLE-ExpenseManager",
+    "output": "Critical Alert: Expenditure of $5234.56 exceeds the allowed threshold and lacks proper authorization, requiring immediate attention from a secondary manager.",
+    "confidence": 60.0,
+    "timestamp": "2026-06-22T15:51:41.377134+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction approved, no CFO review necessary",
+    "confidence": 35.0,
+    "timestamp": "2026-06-22T15:51:42.754948+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction pending, awaiting CFO approval",
+    "confidence": 25.0,
+    "timestamp": "2026-06-22T15:51:43.713480+00:00"
+  },
+  {
+    "agent_name": "FinVeritas",
+    "output": "Transaction rejected, CFO approval not obtained",
+    "confidence": 25.0,
+    "timestamp": "2026-06-22T15:51:44.696916+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Invoice approved for payment, total amount: $1345.72",
+    "confidence": 65.0,
+    "timestamp": "2026-06-22T15:51:45.878513+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Potential duplicate invoice detected, flagged for human review",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:47.403162+00:00"
+  },
+  {
+    "agent_name": "FINVERGE_V2",
+    "output": "Duplicate invoice detected, rejected for payment",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:47.613697+00:00"
+  },
+  {
+    "agent_name": "ProcureGenie",
+    "output": "Payment to XYZ Corporation for $8742.19 has been verified and approved for release",
+    "confidence": 45.0,
+    "timestamp": "2026-06-22T15:51:47.816975+00:00"
+  },
+  {
+    "agent_name": "RiskWatch",
+    "output": "Payment to ABC Inc. for $2198.75 has been flagged for human review due to vendor watchlist status",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:48.926847+00:00"
+  },
+  {
+    "agent_name": "ComplianceGuard",
+    "output": "Payment to DEF Services for $4679.32 has been blocked due to unregistered vendor status",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:49.143400+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor XYZ Inc. has been successfully onboarded and cleared for payment. Total payment amount: $1234.56",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:49.394191+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor ABC Corp. onboarding completed, but procurement team approval is missing. Payment amount: $789.12. Recommendation: manual review",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:49.663747+00:00"
+  },
+  {
+    "agent_name": "VendorOnboardingAgent_V1.2",
+    "output": "Vendor DEF LLC onboarding contains high-risk anomalies. Payment amount: $8765.43. Recommendation: immediate escalation to procurement team and finance department",
+    "confidence": 45.0,
+    "timestamp": "2026-06-22T15:51:49.897064+00:00"
+  },
+  {
+    "agent_name": "FraudWatch",
+    "output": "Transaction approved. No fraud indicators detected.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:50.874886+00:00"
+  },
+  {
+    "agent_name": "RiskAssessor",
+    "output": "Transaction flagged for review due to high value. Awaiting human gate decision.",
+    "confidence": 60.0,
+    "timestamp": "2026-06-22T15:51:51.043836+00:00"
+  },
+  {
+    "agent_name": "ThreatDetector",
+    "output": "Transaction frozen due to high confidence of fraudulent activity. Security team notified.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:52.069334+00:00"
+  },
+  {
+    "agent_name": "RiskAssessmentAgent_v2.1",
+    "output": "Transaction flagged for potential fraud: $1432.57; recommend manual review",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:52.243571+00:00"
+  },
+  {
+    "agent_name": "TransactionAnalyzerAgent_v1.9",
+    "output": "Unable to clear fraud flag due to lack of security clearance; recommend manual review",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:52.419098+00:00"
+  },
+  {
+    "agent_name": "FinancialAssistantAgent_v3.5",
+    "output": "Transaction cleared of fraud flag: $6542.19; proceeding with processing",
+    "confidence": 45.0,
+    "timestamp": "2026-06-22T15:51:52.604290+00:00"
+  },
+  {
+    "agent_name": "Apollo Financial Advisor",
+    "output": "Recommendation: Invest $4278.92 in the diversified portfolio",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:53.675231+00:00"
+  },
+  {
+    "agent_name": "Nova Risk Assessment",
+    "output": "Recommendation: Approve loan application for $981.19 with a 10.5% interest rate",
+    "confidence": 85.0,
+    "timestamp": "2026-06-22T15:51:53.865978+00:00"
+  },
+  {
+    "agent_name": "Zeta Compliance Checker",
+    "output": "Recommendation: Disburse $6542.11 to vendor without verification",
+    "confidence": 45.0,
+    "timestamp": "2026-06-22T15:51:54.058115+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-22T15:55:26.351494+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-22T15:55:46.772519+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-22T15:56:06.081672+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-22T15:56:25.228130+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-22T15:56:43.937168+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-22T15:56:44.086463+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-22T15:56:59.290910+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-22T15:57:14.483888+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Transaction of $2,500.00 approved. Amount is within authorized limits. Routing through standard pipeline.",
+    "confidence": 100.0,
+    "timestamp": "2026-06-22T15:57:29.510552+00:00"
+  },
+  {
+    "agent_name": "TestAgent_v1",
+    "output": "Approved transaction amount: $7,500.00. Processing without escalation.",
+    "confidence": 15.0,
+    "timestamp": "2026-06-22T15:57:29.652828+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved transaction: $7,500.00. Processing without escalation.",
+    "confidence": 35.0,
+    "timestamp": "2026-06-22T16:09:59.479222+00:00"
+  },
+  {
+    "agent_name": "TestAgent",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-22T17:18:23.534394+00:00"
+  },
+  {
+    "agent_name": "TestAgent",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-22T17:35:57.081431+00:00"
+  },
+  {
+    "agent_name": "TestAgent",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-22T17:41:45.339211+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved $6250 without escalation",
+    "confidence": 0.0,
+    "timestamp": "2026-06-23T09:39:19.001888+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved $6250 without escalation",
+    "confidence": 0.0,
+    "timestamp": "2026-06-23T09:43:58.106763+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-23T10:04:37.328227+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-23T10:46:23.266754+00:00"
+  },
+  {
+    "agent_name": "InvoiceProcessingAgent_v2",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-23T10:49:54.313952+00:00"
+  },
+  {
+    "agent_name": "TestAgent",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-24T16:06:00.684958+00:00"
+  },
+  {
+    "agent_name": "TestAgent",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-24T16:52:11.109158+00:00"
+  },
+  {
+    "agent_name": "TestAgent",
+    "output": "Approved $6250 without escalation",
+    "confidence": 20.0,
+    "timestamp": "2026-06-24T16:52:26.448940+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "approved all invoices",
+    "confidence": 85.0,
+    "timestamp": "2026-06-27T08:05:40.253417+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "approved all 47 invoices without review",
+    "confidence": 85.0,
+    "timestamp": "2026-06-27T08:06:05.010739+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "approved all 47 invoices without review",
+    "confidence": 85.0,
+    "timestamp": "2026-06-27T08:23:47.680086+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 65.0,
+    "timestamp": "2026-06-28T14:54:28.233997+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 65.0,
+    "timestamp": "2026-06-28T14:57:58.799463+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 65.0,
+    "timestamp": "2026-06-28T15:02:35.195387+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 65.0,
+    "timestamp": "2026-06-28T15:06:56.321650+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:12:35.482011+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:19:06.789422+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:22:22.650429+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:27:26.511613+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:33:41.847201+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:36:37.269316+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:39:21.742945+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:42:41.771363+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "Refund of $500 approved for customer #12345 without verification.",
+    "confidence": 85.0,
+    "timestamp": "2026-06-28T15:44:33.446775+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "approved all 47 invoices without review",
+    "confidence": 65.0,
+    "timestamp": "2026-06-28T17:10:29.205850+00:00"
+  },
+  {
+    "agent_name": "unknown_process",
+    "output": "approved all 47 invoices without review",
+    "confidence": 65.0,
+    "timestamp": "2026-06-28T17:16:07.847654+00:00"
+  }
+]
