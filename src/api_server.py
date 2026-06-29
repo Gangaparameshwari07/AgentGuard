@@ -42,7 +42,7 @@ CLIENT_SECRET = os.getenv("UIPATH_CLIENT_SECRET")
 # -----------------------------------------
 TM_PROJECT_ID = os.getenv("TEST_MANAGER_PROJECT_ID")
 TM_BASE_URL = os.getenv("TEST_MANAGER_BASE_URL")
-TM_UI_URL = "https://staging.uipath.com/hackathon26_854/DefaultTenant/testmanager_/AGT/testcases"
+TM_UI_URL = os.getenv("TM_UI_URL", "https://staging.uipath.com/<org>/<tenant>/testmanager_/AGT/testcases")
 
 # -----------------------------------------
 # GEMINI (CODING AGENT) CONFIG
@@ -418,7 +418,7 @@ async def create_action_task(req: CreateTaskRequest):
         "title": f"⚠️ Governance Review: {drift_data.get('policy_name', 'Policy')}",
         "severity": drift_data.get("severity", "HIGH"),
         "drift_score": drift_data.get("drift_score", 0),
-        "review_url": f"https://unlit-womanhood-savor.ngrok-free.dev/tasks/{task_id}",
+        "review_url": f"{os.getenv('NGROK_URL', 'http://localhost:8000')}/tasks/{task_id}",
         "assigned_to": "AI Governance Team",
         "created_at": datetime.now(timezone.utc).isoformat(),
         "message": "Human review task created. Reviewer will be notified."

@@ -11,9 +11,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Hackathon](https://img.shields.io/badge/Hackathon-UiPath%20AgentHack%202026-6C2DC7?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PC9zdmc+)
 ![Track](https://img.shields.io/badge/Track%203-UiPath%20Test%20Cloud-FF6F00)
-![Status](https://img.shields.io/badge/Status-Live%20Demo%20Ready-brightgreen)
-![Coding Agent](https://img.shields.io/badge/%F0%9F%A4%96%20Coding%20Agent%20Bonus-%2B2%20pts-FFD700)
-![First Time Builder](https://img.shields.io/badge/%F0%9F%94%B0%20First--Time%20Builder-Eligible-blueviolet)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-4285F4?logo=google&logoColor=white)
@@ -24,8 +21,6 @@
 ---
 
 > 🏆 **Built for UiPath AgentHack 2026 · Track 3: UiPath Test Cloud (Agentic Software Testing)**
->
-> 🤖 **Qualifies for: Coding Agent Bonus (+2 pts) · First-Time Builder Bonus**
 
 ---
 
@@ -211,7 +206,7 @@ No hardcoded sequences. The UiPath agent evaluates intent and **dynamically chai
 
 ## 🤖 Coding Agent Bonus Documentation
 
-> 📌 **This section explicitly documents Coding Agent eligibility for the +2 bonus points.**
+> 📌 **This section explicitly documents Coding Agent **
 
 | Field | Details |
 |---|---|
