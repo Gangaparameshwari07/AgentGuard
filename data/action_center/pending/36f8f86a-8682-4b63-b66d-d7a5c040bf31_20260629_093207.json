@@ -1,0 +1,19 @@
+{
+  "task_metadata": {
+    "task_id": "36f8f86a-8682-4b63-b66d-d7a5c040bf31",
+    "priority": "HIGH",
+    "created_at": "2026-06-29T09:32:07.975584+00:00",
+    "due_in_hours": 24,
+    "assigned_to": "AI Governance Team",
+    "status": "PENDING"
+  },
+  "incident_panel": {
+    "agent_name": "Unknown Agent",
+    "policy_name": "Unknown Policy",
+    "drift_score": 0,
+    "total_flags": 1,
+    "transaction_amount": 0,
+    "affected_policies": "",
+    "recommendation": ""
+  }
+}

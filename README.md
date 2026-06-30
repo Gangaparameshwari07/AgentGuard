@@ -448,8 +448,8 @@ By blending **low-code UiPath orchestration** with **Gemini-powered code intelli
 
 | Asset | Link |
 |---|---|
-| 🎥 Demo Video | *(YouTube link — to be added)* |
-| 📊 Presentation Deck | *(Google Drive link — to be added)* |
+| 🎥 Demo Video | https://youtu.be/KZ6hGp10bHI?si=mE2-37cu2q1hkxl8 |
+| 📊 Presentation Deck | https://docs.google.com/presentation/d/1JaN7_XKr15KBJewun8UjMO9M-5Y55ed-/edit?usp=drivesdk&ouid=113035910934048133264&rtpof=true&sd=true |
 | 📸 Screenshots | [`/demo-screenshots/`](./demo-screenshots/) |
 
 ---
